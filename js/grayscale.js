@@ -190,7 +190,7 @@ function init() {
       //Initialise the BurritoDay text
       var d = new Date();
       var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-      document.getElementById('burrito-day-subtitle').innerHTML = "It\'s Burrito"+days[d.getDay()].toUpperCase()+"!";
+      document.getElementById('burrito-day-subtitle').innerHTML = "It\'s Burrito "+days[d.getDay()].toUpperCase()+"!";
 }
 
 function findBurritoPlaces(pos){
